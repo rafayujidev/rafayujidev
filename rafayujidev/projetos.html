@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos de RafayujiDev - Conheça meus trabalhos em desenvolvimento Front-End.">
+    <meta name="keywords" content="projetos, portfólio, desenvolvimento, websites, aplicações">
+    <meta name="author" content="RafayujiDev">
+    <meta name="robots" content="index, follow">
+    
+    <title>Projetos | RafayujiDev</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Rafayuji<span class="highlight">Dev</span></span>
+                </a>
+                
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="projetos.html" class="nav-link active">Projetos</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="projects-page">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title fade-in">Meus Projetos</h1>
+                <p class="page-subtitle slide-up">Confira alguns dos trabalhos que desenvolvi</p>
+            </div>
+        </section>
+
+        <!-- Filtros de Projetos -->
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="website">Websites</button>
+                    <button class="filter-btn" data-filter="app">Aplicações</button>
+                    <button class="filter-btn" data-filter="ui">UI Design</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid de Projetos -->
+        <section class="projects-grid-section">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <article class="project-card hover-lift" data-category="website">
+                        <div class="project-image">
+                            <div class="project-placeholder">🛒</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Moderno</h3>
+                            <p>Loja virtual responsiva com carrinho de compras e checkout integrado.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver Demo →</a>
+                                <a href="#" class="btn-link">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 2 -->
+                    <article class="project-card hover-lift" data-category="app">
+                        <div class="project-image">
+                            <div class="project-placeholder">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Dashboard Analytics</h3>
+                            <p>Painel administrativo com gráficos interativos e visualização de dados.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">CSS Grid</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver Demo →</a>
+                                <a href="#" class="btn-link">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 3 -->
+                    <article class="project-card hover-lift" data-category="website">
+                        <div class="project-image">
+                            <div class="project-placeholder">🍽️</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Restaurante Gourmet</h3>
+                            <p>Website para restaurante com cardápio digital e sistema de reservas.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">Formulários</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver Demo →</a>
+                                <a href="#" class="btn-link">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 4 -->
+                    <article class="project-card hover-lift" data-category="ui">
+                        <div class="project-image">
+                            <div class="project-placeholder">🎨</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>UI Kit Minimalista</h3>
+                            <p>Kit de interface com componentes reutilizáveis e design system.</p>
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">CSS Variables</span>
+                                <span class="tag">Design System</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver Demo →</a>
+                                <a href="#" class="btn-link">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 5 -->
+                    <article class="project-card hover-lift" data-category="app">
+                        <div class="project-image">
+                            <div class="project-placeholder">📝</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Manager App</h3>
+                            <p>Aplicativo de gerenciamento de tarefas com drag & drop.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">LocalStorage</span>
+                                <span class="tag">Drag API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver Demo →</a>
+                                <a href="#" class="btn-link">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 6 -->
+                    <article class="project-card hover-lift" data-category="website">
+                        <div class="project-image">
+                            <div class="project-placeholder">🏢</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Landing Page Corporativa</h3>
+                            <p>Página de aterrissagem otimizada para conversão com animações.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS Animations</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Ver Demo →</a>
+                                <a href="#" class="btn-link">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RafayujiDev</h3>
+                    <p>Transformando ideias em experiências digitais</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RafayujiDev. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
